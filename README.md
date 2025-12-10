@@ -119,7 +119,23 @@ CourseWork/
 │   ├── GraspDataset.py    # Dataset loader and splitter
 │   ├── Classifier.py      # RandomForest grasp classifier
 │   └── training.py        # Training pipeline
+│── urdf/
+│   ├── cube_small.urdf    # URDF of cube
+│   ├── cylinder.urdf      # URDF of cylinder
+│   ├── 3f     
+│   │   └── 3f.urdf        # URDF of three finger robot
+│   └── 2f       
+│       └── 2f.urdf        # URDF of two finger robot
+│── model/
+│   ├── 2f_cube.joblib     # model file of two finger robot and cube
+│   ├── 2f_cylinder.joblib # model file of two finger robot and cylinder
+│   └── ...
+│── data/
+│   ├── 2f_cube.csv        # data of two finger robot and cube for training
+│   ├── 2f_cylinder.csv    # data of two finger robot and cylinder for training
+│   └── ...
 │── requirements.txt
+│── README.md
 ```
 
 ## 5️⃣ Notes
